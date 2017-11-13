@@ -1,16 +1,16 @@
 import React from 'react';
-import UserList from '../containers/user-list';
-import UserDetails from '../containers/user-detail';
+import FishList from '../containers/fish-list'
+import FishDetail from '../containers/fish-detail'
 require('../../scss/style.scss');
 
 const App = () => (
-    <div>
-        <h2>User List</h2>
-        <UserList />
-        <hr />
-        <h2>User Details</h2>
-        <UserDetails />
-    </div>
+  <div>
+    <h2>Fish List:</h2>
+    <FishList />
+    <hr/>
+    <h2>Fish Details:</h2>
+    <FishDetail />
+  </div>
 );
 
 export default App;

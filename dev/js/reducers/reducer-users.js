@@ -1,33 +1,28 @@
-/*
- * The users reducer will always return an array of users no matter what
- * You need to return something, so if there are no users then just return an empty array
- * */
-
 export default function () {
-    return [
-        {
-            id: 1,
-            first: "Bucky",
-            last: "Roberts",
-            age: 71,
-            description: "Bucky is a React developer and YouTuber",
-            thumbnail: "http://i.imgur.com/7yUvePI.jpg"
-        },
-        {
-            id: 2,
-            first: "Joby",
-            last: "Wasilenko",
-            age: 27,
-            description: "Joby loves the Packers, cheese, and turtles.",
-            thumbnail: "http://i.imgur.com/52xRlm8.png"
-        },
-        {
-            id: 3,
-            first: "Madison",
-            last: "Williams",
-            age: 24,
-            description: "Madi likes her dog but it is really annoying.",
-            thumbnail: "http://i.imgur.com/4EMtxHB.png"
-        }
-    ]
+  return [
+    {
+      id: 1,
+      first: "Goldfish",
+      last: "fish",
+      age: 26,
+      description: "Everyones first pet",
+      thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Goldfish3.jpg/224px-Goldfish3.jpg"
+    },
+    {
+      id: 2,
+      first: "Pufferfish",
+      last: "fish",
+      age: 369,
+      description: "So puffy!",
+      thumbnail: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Water_baloon_%282196115607%29.jpg/240px-Water_baloon_%282196115607%29.jpg"
+    },
+    {
+      id: 3,
+      first: "Tuna",
+      last: "fish",
+      age: 9,
+      description: "Why are these things so huge? THey are terrifying.",
+      thumbnail: "http://farm4.static.flickr.com/3940/15548989021_2a30bdcbbe_m.jpg"
+    }
+  ]
 }
